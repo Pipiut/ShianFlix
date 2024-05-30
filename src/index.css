@@ -1,8 +1,26 @@
+:root{
+  --font:"Roboto", sans-serif;
+  --white: #fff;
+  --blue: #2271D1;
+  --black: rgba(0, 0, 0, 0.9);
+  --ligthgrey: #A5A5A5;
+  --red: #E53935;
+  --darkgrey: #262626;
+  --grey: #191919;
+  --darkblue:#03122F;
+  --fullbackgroundmodel: rgba(3, 18, 47, 0.76);
+}
+
+@font-face {
+  font-family: "SourceSansProRegular";
+  src: local("Source Sans Pro Regular"), local("SourceSansProRegular"),
+  url(../public/fonts/SourceSansPro-Regular.ttf);
+  font-weight: 600;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
