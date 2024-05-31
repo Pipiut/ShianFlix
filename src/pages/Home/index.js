@@ -1,8 +1,14 @@
+import Banner from '../components/Banner/Banner'
 import React from 'react'
-import styles from "./index.module.css"
+
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+    <Banner/>
+    <section>
+        render categorys videos
+    </section>
+    </>
   )
 }

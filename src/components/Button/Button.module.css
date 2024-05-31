@@ -1,0 +1,23 @@
+.button{
+    width: 180.13px;
+    height: 54px;
+    border-radius: 15px;
+    font-family: "SourceSansProRegular";
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--white);
+    border: 2px solid;
+    border-color: var(--white);
+    background-color: transparent;   
+    z-index: auto;
+    cursor: pointer;
+}
+.button:hover{
+    color: var(--blue);
+    border-color: var(--blue);
+    background-color: var(black);   
+    box-shadow: 0px 0px 12px 4px var(--blue) inset;
+
+}
