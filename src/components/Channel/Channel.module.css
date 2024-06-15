@@ -1,0 +1,15 @@
+
+.channelContainer {
+    padding: 40px;
+}
+.title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+    color: var(--white);
+    border-radius: 15px;
+    box-sizing: content-box;
+    height: 70px;
+    margin: 40px;
+}

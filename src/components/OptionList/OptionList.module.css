@@ -1,0 +1,35 @@
+.optionList {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 20px;
+}
+.optionList label {
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--white);
+}
+.optionList select {
+    height: 52px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid var(--blue);
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--ligthgrey);
+    width: fit-content;
+}
+.optionList option {
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--blue);
+}

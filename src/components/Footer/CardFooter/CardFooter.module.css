@@ -1,0 +1,40 @@
+/*CardFooter*/
+.cardFooterContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    object-fit: cover;
+    height: 59px;
+    border-style: solid;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #03122F;
+    border-width: 0px 5px 5px 5px;   
+}
+.cardFooterContainer div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+}
+.iconText{
+    font-family:var(--font);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 18.75px;
+    text-align: left;
+    color: var(--white);
+    cursor: pointer;
+    text-decoration:underline;
+}
+.icon {
+    align-self: center;
+    width: 25.43px;
+    height: 28px;
+    padding: 5px;
+    cursor: pointer;
+}
+.iContainer{
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+}

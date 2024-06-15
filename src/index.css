@@ -1,5 +1,5 @@
 :root{
-  --font:"Roboto", sans-serif;
+  --font:"Roboto";
   --white: #fff;
   --blue: #2271D1;
   --black: rgba(0, 0, 0, 0.9);
@@ -20,9 +20,8 @@
 
 body {
   margin: 0;
-  font-family: var(--font);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:var(--font);
+
 }
 
 code {

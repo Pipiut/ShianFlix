@@ -1,0 +1,37 @@
+.campo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 20px;
+}
+label {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+input {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-indent: 5px;
+  cursor: text;
+  border: 3px solid var(--blue);
+  color: var(--ligthgrey);
+  height: 42px;
+  gap: 0px;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 500px;
+}
+@media screen and (max-width: 769px) {
+  input {
+    width: fit-content;
+  }
+}

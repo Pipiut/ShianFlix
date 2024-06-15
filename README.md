@@ -5,7 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,6 +12,34 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm install` download dependencies, and check... 
+
+### `npm install react-slick --save` 
+React slick is a carousel component built with React. It is a react port of slick carousel.
+
+[react-slick.neostack.com]
+
+### `npm install react-roter-dom`  # always need this!
+The react-router-dom package contains bindings for using React Router in web applications. 
+
+[https://github.com/remix-run/react-router#readme]
+
+
+### `npm install json-server`  Get a full fake REST API with zero coding in less than 30 seconds (seriously)
+
+### `json-server --watch src/data/db.json` Now if you go to http://localhost:3000/Videos, you'll get
+{
+        "id": "1",
+        "title": "TENGO PROHIBIDO TOCAR EL COLOR VERDE EN STUMBLE GUYS",
+        "description": "2,988 views  May 18, 2024 Si toco algo verde del mapa en stumble guys pierdo la partida",
+        "channel": "ShianOF",
+        "img": "hXWvuwRgRb8",
+        "url": "hXWvuwRgRb8"
+    }
+    Also, if you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to db.json
+
+[github.com/typicode/json-server#readme](https://github.com/typicode/json-server#readme)
 
 ### `npm test`
 
@@ -68,3 +95,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
