@@ -22,7 +22,8 @@ export default function NewVideoForm() {
       body: JSON.stringify(newVideo),
     });
     if (!data.ok) {
-      throw new Error("No fue posible enviar el video");
+      alert("Aún no es posible enviar el video");
+      window.location.href = "./";
     }
     if (data.ok) {
       return alert("Nuevo Video agregado en la galería");

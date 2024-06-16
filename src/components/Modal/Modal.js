@@ -25,7 +25,8 @@ export default function Modal({ editVideos }) {
       body: JSON.stringify(formData),
     });
     if (!data.ok) {
-      throw new Error("No fue posible ACTUALIZAR el video" + title);
+      alert("No fue posible ACTUALIZAR el video: " + title);
+      window.location.href = "./";
     }
     if (data.ok) {
       window.location.href = "./";

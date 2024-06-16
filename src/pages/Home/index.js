@@ -24,7 +24,34 @@ export default function Home({setVideoEdit, selectedVideo, setSelectedVideo}) {
 
       setChannels(data);
     } catch (error) {
-      alert(`Error al importar la galería de Canales desde http://localhost:3000/Channels`, error);
+      /* alert(`Error al importar la galería de Canales desde http://localhost:3000/Channels`, error); */
+      setChannels([
+        {
+          "id": "5",
+          "name": "ShianOF",
+          "color": "#7fff00"
+        },
+        {
+          "id": "4",
+          "name": "ShianDB",
+          "color": "#00C86F"
+        },
+        {
+          "id": "3",
+          "name": "Shian03",
+          "color": "#d2691e"
+        },
+        {
+          "id": "2",
+          "name": "ShianFT",
+          "color": "#9acd32"
+        },
+        {
+          "id": "1",
+          "name": "Memes Cortos",
+          "color": "#daa520"
+        }
+      ])
     }
   };
 

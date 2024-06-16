@@ -6,6 +6,7 @@ export default function Video(props) {
   const { channelColor, setVideoEdit, dataVideo, setSelectedVideo } = props;
 
   async function deleteVideos(id) {
+    try {
     const data = await fetch(`http://localhost:3000/Videos/${id}`, {
       method: "DELETE",
       headers: {
@@ -15,6 +16,9 @@ export default function Video(props) {
       url: "http://localhost:3000/Videos/" + id,
     });
     window.location.reload();
+    }catch {
+      window.confirm(`El video será eliminado cuando el proyecto este aprobado. Su numero de operación es: ` + id)
+    }
   }
 
   const borderColor = { borderColor: channelColor };
